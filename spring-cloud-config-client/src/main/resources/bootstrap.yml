@@ -1,0 +1,22 @@
+spring:
+  cloud:
+    config:
+      name: spring-cloud-config-client
+      profile: dev
+      uri: http://10.3.99.29:8888
+      label: master
+#server:
+#  port: 7777
+#spring:
+#  application:
+#    name: spring-cloud-eureka-client
+#eureka:
+#  instance:
+#    preferIpAddress: true
+#    #这样写eureka服务注册中心会显示本机ip+端口号
+#    instanceId: ${spring.cloud.client.ipAddress}:${server.port}
+#    #这样写eureka服务注册中心会显示项目名和端口号
+#    #instanceId: ${spring.application.name}:${server.port}
+#  client:
+#    serviceUrl:
+#      defaultZone: http://10.3.99.29:1111/eureka/  #注册中心地址
