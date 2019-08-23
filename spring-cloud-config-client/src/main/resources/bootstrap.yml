@@ -1,9 +1,10 @@
+
 spring:
   cloud:
     config:
       name: spring-cloud-config-client
       profile: dev
-      uri: http://10.3.99.29:8888
+      uri: http://localhost:8877
       label: master
 #server:
 #  port: 7777
